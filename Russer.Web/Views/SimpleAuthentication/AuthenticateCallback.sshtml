@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Russer</title>
+</head>
+<body>
+    <div id="usercontainer">
+        <h1>Authenticated Client</h1>
+
+        <h2>User Information</h2>
+        <p>Provider Type: @Model.AuthenticatedClient.ProviderName</p>
+        <p>Public Access Token: @Model.AuthenticatedClient.AccessToken.PublicToken</p>
+        <p>Secret Access Token: @Model.AuthenticatedClient.AccessToken.SecretToken</p>
+        <p>Access Token Expires On: @Model.AuthenticatedClient.AccessToken.ExpiresOn</p>
+        <p>ID: @Model.AuthenticatedClient.UserInformation.Id</p>
+        <p>Name: @Model.AuthenticatedClient.UserInformation.Name</p>
+        <p>UserName: @Model.AuthenticatedClient.UserInformation.UserName</p>
+        <p>Email: @Model.AuthenticatedClient.UserInformation.Email</p>
+        <p>Locale: @Model.AuthenticatedClient.UserInformation.Locale</p>
+
+    </div>
+</body>
+</html>

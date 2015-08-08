@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Russer", "Russer\Russer.csproj", "{14589DED-2086-4BE3-AE09-68E7F8F30CBA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Russer.Shared", "Russer.Shared\Russer.Shared.csproj", "{14589DED-2086-4BE3-AE09-68E7F8F30CBA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Russer.Web", "Russer.Web\Russer.Web.csproj", "{2C8C54EA-4D01-466F-8DFC-35EE3B38DA3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Russer.Tests", "Russer.Tests\Russer.Tests.csproj", "{9359F023-985D-486A-84D9-726E8FA0495B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{14589DED-2086-4BE3-AE09-68E7F8F30CBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{14589DED-2086-4BE3-AE09-68E7F8F30CBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{14589DED-2086-4BE3-AE09-68E7F8F30CBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C8C54EA-4D01-466F-8DFC-35EE3B38DA3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C8C54EA-4D01-466F-8DFC-35EE3B38DA3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C8C54EA-4D01-466F-8DFC-35EE3B38DA3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C8C54EA-4D01-466F-8DFC-35EE3B38DA3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9359F023-985D-486A-84D9-726E8FA0495B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9359F023-985D-486A-84D9-726E8FA0495B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9359F023-985D-486A-84D9-726E8FA0495B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9359F023-985D-486A-84D9-726E8FA0495B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -4,12 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Russer
+namespace Russer.Shared
 {
-    public class Program
+    public class Feed
     {
-        static void Main(string[] args)
-        {
-        }
+        
     }
 }

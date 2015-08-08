@@ -1,0 +1,12 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Russer</title>
+</head>
+<body>
+	<h1>Hello, @Model.User!</h1>
+	<a href="/authentication/redirect/google">Login with Google</a>
+</body>
+</html>
